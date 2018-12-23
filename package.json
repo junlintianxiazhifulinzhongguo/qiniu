@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node upload.js"
+  },
+  "dependencies": {
+    "glob": "^7.1.3",
+    "qiniu": "^7.2.1"
+  }
+}
