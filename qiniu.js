@@ -64,6 +64,7 @@ const directTransmission=(uploadToken,localFile,key = null)=>{
       //throw respErr;
       console.log(localFile)
       console.log(respErr)
+      breakpointRenewal(uploadToken,localFile,key)
     }
 
     if (respInfo.statusCode == 200) {
